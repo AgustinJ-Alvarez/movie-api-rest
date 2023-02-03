@@ -1,2 +1,7 @@
 # movie-api-rest
-A movie website, consuming API REST
+A movie website. 
+
+* Consuming an API REST.
+* Axios
+* Html, CSS & Javascript.
+* Designed for mobile.
