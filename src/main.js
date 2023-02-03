@@ -120,10 +120,10 @@ async function getMovieById(id) {
 
   createCategories(movie.genres, movieDetailCategoriesList);
   
-  getRelatedMOviesId(id);
+  getRelatedMoviesId(id);
 }
 
-async function getRelatedMOviesId(id){
+async function getRelatedMoviesId(id){
   const { data } = await api(`movie/${id}/recommendations`);
 
   const relatedMovies = data.results;
